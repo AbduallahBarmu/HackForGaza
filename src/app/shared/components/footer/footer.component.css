@@ -1,0 +1,24 @@
+
+.footer {
+  width: 90rem;
+  height: 14.9375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.log{
+    color: #FFF;
+}
+
+.footer_content{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
