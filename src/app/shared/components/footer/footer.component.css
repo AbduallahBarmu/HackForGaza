@@ -1,4 +1,3 @@
-
 .footer {
   width: 90rem;
   height: 14.9375rem;
@@ -6,19 +5,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.log{
-    color: #FFF;
+.log {
+  color: #fff;
 }
 
-.footer_content{
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.footer_content {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
