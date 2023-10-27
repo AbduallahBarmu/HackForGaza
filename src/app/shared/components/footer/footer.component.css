@@ -2,8 +2,8 @@
   width: 90rem;
   height: 14.9375rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   color: #ffffff;
   background-color: #000000;
