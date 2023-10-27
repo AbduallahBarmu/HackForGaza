@@ -4,14 +4,8 @@ import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {
-    path: 'event',
-    component: EventsComponent,
-  },
-  {
-    path: 'home',
-    component: HomeComponent
-  }
+  { path: 'home', component: HomeComponent },
+  { path: 'events', component: EventsComponent},
 ];
 
 @NgModule({
