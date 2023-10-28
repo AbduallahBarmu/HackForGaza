@@ -9,6 +9,6 @@ export class HomeService {
   constructor(private http: HttpClient) {}
 
   getData(): Observable<any[]> {
-    return this.http.get<any[]>("../../assets/data.json");
+    return this.http.get<any[]>("http://127.0.0.1:8000/api/event_info");
   }
 }
