@@ -11,20 +11,20 @@ import { EventsComponent } from './events/events.component';
 import { HeroComponent } from './home/hero/hero.component';
 import { EventInfoComponent } from './shared/components/event-info/event-info.component';
 import { TimelineComponent } from './home/timeline/timeline.component';
-
+import { SharedModule } from './shared/module/shared.module';
+import { MaterialModule } from './shared/module/material.module'; 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    FooterComponent,
     HomeComponent,
     EventsComponent,
     HeroComponent,
     TimelineComponent,
-    EventInfoComponent
-
+    EventInfoComponent,
   ],
   imports: [
+    MaterialModule,
+    SharedModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule
