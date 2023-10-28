@@ -1,41 +1,22 @@
 
 <section class="timeline-section">
-	<div class="timeline-items">
-
-		<div class="timeline-item">
+	<div class="timeline-items" *ngFor="let item of data">
+		<div class="timeline-item" [ngClass]="{}" >
+			
 			<div class="timeline-dot"></div>
-			<div class="timeline-date">1936</div>
+			<div class="timeline-date">{{item.date_year}}</div>
 			<div class="timeline-content">
 				<img class="frame-img" src="../../../assets/frame1.png" alt="">
 			</div>
-		</div>
-
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1936</div>
-			<div class="timeline-content">
-				<img class="frame-img" src="../../../assets/frame1.png" alt="">
+			<div class="event-list">
+				<ul class="event-list-items">
+					<li *ngFor="let event of item.events">
+					  <p>{{ event.month }}</p>
+					  <p>{{ event.event_name }}</p>
+					</li>
+				  </ul>
 			</div>
 		</div>
-
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1936</div>
-			<div class="timeline-content">
-				<img class="frame-img" src="../../../assets/frame1.png" alt="">
-			</div>
-		</div>
-
-		<div class="timeline-item">
-			<div class="timeline-dot"></div>
-			<div class="timeline-date">1936</div>
-			<div class="timeline-content">
-				<img class="frame-img" src="../../../assets/frame1.png" alt="">
-			</div>
-		</div>
-
-		
-		
 	</div>
 </section>
 

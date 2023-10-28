@@ -13,6 +13,11 @@ import { EventInfoComponent } from './shared/components/event-info/event-info.co
 import { TimelineComponent } from './home/timeline/timeline.component';
 import { SharedModule } from './shared/module/shared.module';
 import { MaterialModule } from './shared/module/material.module'; 
+import { HttpClientModule } from '@angular/common/http'; 
+import { HomeService } from './home/home.service';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,15 +26,18 @@ import { MaterialModule } from './shared/module/material.module';
     HeroComponent,
     TimelineComponent,
     EventInfoComponent,
+    
   ],
   imports: [
     MaterialModule,
     SharedModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule, 
+    //
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -43,9 +43,9 @@
   padding-left: calc(50% + 30px);
 }
 .timeline-dot {
-  height: 16px;
-  width: 3.87438rem;
-  height: 3.87438rem;
+  height: 10px;
+  width: 2rem;
+  height: 2rem;
   background-color: #000;
   position: absolute;
   left: calc(50% - 8px);
@@ -68,19 +68,9 @@
   width: 27.6875rem;
   height: 19.0625rem;
 }
-/* .timeline-content h3{
-    font-size: 20px;
-	color: #ffffff;
-	margin:0 0 10px;
-	text-transform: capitalize;
-	font-weight: 500;
+.event-list-items{
+  list-style: none;
 }
-.timeline-content p{
-    color: #c8c8c8;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 22px;
-} */
 
 /* responsive */
 @media (max-width: 767px) {
