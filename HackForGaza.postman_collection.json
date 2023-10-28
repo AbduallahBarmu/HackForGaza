@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "66e68027-d488-42d5-9574-6a0a3af6359e",
+		"name": "HackForGaza",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16003254"
+	},
+	"item": [
+		{
+			"name": "all event info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/event_info",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"event_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "event details",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "id",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/event_info/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"event_info",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/home",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"home"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
