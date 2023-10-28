@@ -1,56 +1,55 @@
 [
   {
     "id": 1,
-    "img": "",
+    "img": "../../../assets/frame1.png",
     "date_year": 1936,
     "events": [
       {
-        "month": "Jan",
+        "month": "JANUARY",
         "event_name": "title for event"
       },
       {
-        "month": "Mar",
+        "month": "MARCH",
         "event_name": "title for event"
       },
       {
-        "month": "Jul",
+        "month": "JULY",
         "event_name": "title for event"
       }
     ]
   },
 
   {
-    "id": 1,
-    "img": "",
+    "id": 2,
+    "img": "../../../assets/frame2.png",
     "date_year": 1936,
     "events": [
       {
-        "month": "Jan",
+        "month": "JANUARY",
         "event_name": "title for event"
       },
       {
-        "month": "Mar",
+        "month": "MARCH",
         "event_name": "title for event"
       }
     ]
   },
 
   {
-    "id": 1,
-    "img": "",
+    "id": 3,
+    "img": "../../../assets/frame3.png",
     "date_year": 1936,
     "events": [
       {
-        "month": "Jan",
+        "month": "OCTOBER",
         "event_name": "title for event"
       },
       {
-        "month": "Mar",
+        "month": "NOVEMBER",
         "event_name": "title for event"
       }
     
     ]
   }
-
   
 ]
