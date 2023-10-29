@@ -3,6 +3,8 @@
     "id": 1,
     "img": "../../../assets/frame1.png",
     "date_year": 1936,
+    "title": "The Arab Revolt begins opposing Jewish immigration",
+    "description":"Palestinian Arabs rebelled against British Mandate rule and Jewish immigration, seeking self-determination and an end to Jewish land purchases. British authorities imposed martial law to quell the unrest.",
     "events": [
       {
         "month": "JANUARY",
