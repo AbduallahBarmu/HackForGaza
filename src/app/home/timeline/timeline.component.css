@@ -64,7 +64,7 @@
 
 .timeline-date {
   color: #000;
-  font-family: 'M PLUS 1p';
+  font-family: Mplus 1p Bold;
   font-size: 4.375rem;
   font-style: normal;
   font-weight: 700;
@@ -117,6 +117,7 @@
 
 .event-month {
   color: #000;
+  text-align: right;
   font-family: Montserrat;
   font-size: 1rem;
   font-style: normal;
@@ -137,7 +138,7 @@
   text-transform: uppercase;
 }
 /* responsive */
-@media (max-width: 940px) {
+@media (max-width: 767px) {
   .timeline-items::before {
     left: 7px;
   }
