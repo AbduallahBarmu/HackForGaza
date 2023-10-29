@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
+import { EventProfileComponent } from './event-profile/event-profile.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'events', component: EventsComponent},
+  { path: 'event', component: EventProfileComponent},
+
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { errorHandler: (error: any) => console.error(error) })  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

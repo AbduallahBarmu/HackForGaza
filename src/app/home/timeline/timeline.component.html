@@ -2,15 +2,15 @@
 	<div class="timeline-items" *ngFor="let item of data; let i = index">
 		<div class="timeline-item" [ngClass]="{ 'timeline-item-left': isEven(i), 'timeline-item-right': !isEven(i) }">
 			<div class="timeline-dot"></div>
-			<div class="timeline-date"
+			<div class="timeline-date" routerLink="./event"
 				[ngClass]="{ 'timeline-date-right': isEven(i), 'timeline-date-left': !isEven(i) }">
-				<!-- <mat-icon>arrow_forward_ios </mat-icon> -->
 				{{item.date_year}}
+
 			</div>
 			<div>
 				<img class="frame-img" src="http://127.0.0.1:8000/{{item.img[0]}}" alt="">
 			</div>
-			
+
 			<div class="event-list" *ngFor="let event of item.events">
 				<ul class="event-list-items">
 					<li class="item">
