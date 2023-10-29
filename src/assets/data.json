@@ -22,7 +22,7 @@
   {
     "id": 2,
     "img": "../../../assets/frame2.png",
-    "date_year": 1936,
+    "date_year": 1948,
     "events": [
       {
         "month": "JANUARY",
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "img": "../../../assets/frame3.png",
-    "date_year": 1936,
+    "date_year": 2001,
     "events": [
       {
         "month": "OCTOBER",

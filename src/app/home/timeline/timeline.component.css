@@ -7,10 +7,10 @@
 
 .timeline-section {
   background-color: #ffffff;
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   padding: 100px 15px;
-  margin-bottom: 20%;
+  margin-bottom: 50%;
 }
 
 .timeline-items {
@@ -103,15 +103,15 @@
   align-items: flex-start;
 }
 
-/* .timeline-sm-dot{
+.timeline-sm-dot{
   height: 10px;
   width: 10px;
   background-color: #9d0208;
   border-radius: 50%;
   position: absolute;
-  left: calc(50% - 15px);
+  left: calc(120% - 15px);
   top: 10px;
-} */
+}
 
 
 .event-month {

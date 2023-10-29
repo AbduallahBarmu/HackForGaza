@@ -10,16 +10,16 @@
 			<div>
 				<img class="frame-img" src="{{item.img}}" alt="">
 			</div>
-
-			<div class="event-list">
-				<!-- <span class="timeline-sm-dot"></span> -->
+			
+			<div class="event-list" *ngFor="let event of item.events">
 				<ul class="event-list-items">
-					<li class="item" *ngFor="let event of item.events">
+					<li class="item">
 						<p class="event-title">{{ event.event_name }}</p>
 						<p class="event-month">{{ event.month }}</p>
 					</li>
 				</ul>
 			</div>
+
 
 		</div>
 	</div>
