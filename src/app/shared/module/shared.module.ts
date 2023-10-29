@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from '../components/footer/footer.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 // import {MatIconModule} from '@angular/material/icon';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
+    RouterModule,
     CommonModule, 
     // MatIconModule
   ],
