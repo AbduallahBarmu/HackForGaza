@@ -101,6 +101,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  /* justify-content: center; */
 }
 
 .timeline-sm-dot{
@@ -122,14 +123,15 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 15px;
+  text-align:right;
 }
 
 .event-title {
   color: #000;
   font-family: Montserrat;
-  font-size: 2rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 900;
   line-height: normal;

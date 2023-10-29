@@ -5,14 +5,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroComponent } from './home/hero/hero.component';
-import { EventInfoComponent } from './shared/components/event-info/event-info.component';
+
 import { TimelineComponent } from './home/timeline/timeline.component';
 import { SharedModule } from './shared/module/shared.module';
 import { MaterialModule } from './shared/module/material.module'; 
 import { HttpClientModule } from '@angular/common/http'; 
 import { HomeService } from './home/home.service';
-import { EventProfileComponent } from './event-profile/event-profile.component';
 import { RouterModule } from '@angular/router';
+
+import { EventModule } from './event/module/event.module';
 
 
 
@@ -22,8 +23,6 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     HeroComponent,
     TimelineComponent,
-    EventInfoComponent,
-    EventProfileComponent,
     
   ],
   imports: [
@@ -31,6 +30,7 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     MaterialModule,
     SharedModule,
+    EventModule,
     BrowserModule,
     BrowserAnimationsModule, 
     HttpClientModule

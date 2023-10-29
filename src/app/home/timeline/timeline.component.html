@@ -5,12 +5,10 @@
 			<div class="timeline-date" routerLink="./event"
 				[ngClass]="{ 'timeline-date-right': isEven(i), 'timeline-date-left': !isEven(i) }">
 				{{item.date_year}}
-
 			</div>
 			<div>
 				<img class="frame-img" src="{{item.img}}" alt="">
 			</div>
-
 			<div class="event-list" *ngFor="let event of item.events">
 				<ul class="event-list-items">
 					<li class="item">
@@ -19,8 +17,6 @@
 					</li>
 				</ul>
 			</div>
-
-
 		</div>
 	</div>
 </section>
