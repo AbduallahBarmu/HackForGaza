@@ -1,6 +1,7 @@
 .event-info {
     display: flex;
     height: 50vh;
+    margin-bottom: 30%;
   }
   
   .event-description-container {

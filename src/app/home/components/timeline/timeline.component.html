@@ -2,7 +2,7 @@
 	<div class="timeline-items" *ngFor="let item of data; let i = index">
 		<div class="timeline-item" [ngClass]="{ 'timeline-item-left': isEven(i), 'timeline-item-right': !isEven(i) }">
 			<div class="timeline-dot"></div>
-			<div class="timeline-date" routerLink="./event"
+			<div class="timeline-date" 
 				[ngClass]="{ 'timeline-date-right': isEven(i), 'timeline-date-left': !isEven(i) }">
 				{{item.date_year}}
 			</div>
